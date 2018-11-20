@@ -143,7 +143,7 @@ Stripe.setOptionsAsync({
 ## Using the Payments SDK
 
 First, initialize the Payments module with your credentials:
-This `setOptionsAsync` method has to be called  must put under the componentWillMount in android's production mode, unlike iOS that it works outside the component.
+This `setOptionsAsync` method must put under the componentWillMount in android's production mode, unlike iOS that it works outside any component.
 
 ```javascript
 Stripe.setOptionsAsync({
